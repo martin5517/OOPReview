@@ -8,19 +8,22 @@ public class Task {
 
     public Database readCSV(String filename) {
         String contents = "";
-        try (InputStream in = /* TODO.
-Change what needs to go here to start reading "filename" */){
-            byte[] buffer = /* TODO 
-Create a byte array of about 1024 bytes or however many bytes you want. */;
+        try (InputStream in = new BufferedInputStream(new FileInputStream(filename))){
+            byte[] buffer = new byte[1024];
             int lengthRead;
             /* TODO 
 Create a while loop to read the contents of the file and put them in the variable "contents" declared at the beginning of the method. */
-        } catch (/* TODO 
+            while ((lengthRead = in.read(buffer)) >0) {
+                contents = contents + new String(buffer, 0, lengthRead);
+            }
+
+        } catch (IOException e/* TODO
 Put the correct Exception here. */) {
             e.printStackTrace();
             System.exit(-1);
         }
-        return/* TODO 
+        return new Database(contents/* TODO
 Return a Databse object initialized with the contents read. */);
     }
 }
+
