@@ -6,4 +6,24 @@ public class Car {
 
  /* TODO 
 Exact same methods and constructor as the Car in task 1*/
+ public Car(String name,double miles){
+     this.miles = miles;
+     odometer = 0;
+     this.name = name;
+     this.maxMiles = miles;
+ }
+
+    public void move(double miles){
+        this.miles =this.miles>0? this.miles-miles:0;
+        /* TODO
+move should subtract  'miles' from the miles left to travel and add 'miles' to the odometer. The miles to travel cannot be less than zero. */
+    }
+
+    public void charge(){
+        this.miles = maxMiles;
+    }
+
+    public String toString(){
+        return name+": odo:"+odometer+" - miles left:"+miles;
+    }
 }
