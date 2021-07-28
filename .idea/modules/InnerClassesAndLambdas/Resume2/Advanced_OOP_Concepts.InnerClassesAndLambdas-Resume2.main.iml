@@ -10,5 +10,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Advanced_OOP_Concepts.util.main" />
     <orderEntry type="library" name="Gradle: com.github.cliftonlabs:json-simple:3.1.1" level="project" />
+    <orderEntry type="module" module-name="Advanced_OOP_Concepts.InnerClassesAndLambdas-Resume1.main" />
   </component>
 </module>
