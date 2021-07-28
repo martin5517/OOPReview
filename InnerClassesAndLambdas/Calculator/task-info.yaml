@@ -13,7 +13,7 @@ files:
       offset: 72
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: |2-
           public static class Triplet<T,U,V>{
               public T t;
@@ -26,7 +26,7 @@ files:
               }
           }
   - offset: 543
-    length: 144
+    length: 142
     placeholder_text: |-
       /* TODO */
       Add the code to add a multiplication of 4.5 x 5.4, a division by zero, and divide 56.0/28.0
@@ -35,12 +35,12 @@ files:
       offset: 491
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: |2-
               t.add(new Triplet<>(12.4,0.0,"/"));
               t.add(new Triplet<>(56.0,28.0,"/"));
               t.add(new Triplet<>(4.5,5.4,"*"));
-  - offset: 707
+  - offset: 705
     length: 38
     placeholder_text: |-
       /* TODO */
@@ -50,7 +50,7 @@ files:
       offset: 613
     initialized_from_dependency: false
     selected: false
-    status: Failed
+    status: Solved
     encrypted_possible_answer: x->result+="\n"+c.compute(x.t,x.u,x.v)
   text: |-
     import java.util.ArrayList;
@@ -139,7 +139,7 @@ files:
       offset: 46
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: '    Double compute(Double d1, Double d2);'
   text: |
     @FunctionalInterface
@@ -161,10 +161,10 @@ files:
       offset: 137
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: (x1,x2)-> x1+x2;
   - offset: 200
-    length: 13
+    length: 15
     placeholder_text: |-
       /* TODO */
       Use a lambda expression to set "res" to the correct function.
@@ -173,9 +173,9 @@ files:
       offset: 256
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: es= (x1,x2)->x1
-  - offset: 260
+  - offset: 262
     length: 15
     placeholder_text: |-
       /* TODO */
@@ -185,9 +185,9 @@ files:
       offset: 375
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: '": res= (x1,x2)'
-  - offset: 322
+  - offset: 324
     length: 54
     placeholder_text: |-
       /* TODO */
@@ -197,10 +197,10 @@ files:
       offset: 494
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: 'e "/": res= (x1,x2)->x2==0?Double.POSITIVE_INF'
-  - offset: 407
-    length: 45
+  - offset: 408
+    length: 39
     placeholder_text: |-
       /* TODO */
       In the default value, the res function should return the minimun possible value.
@@ -209,9 +209,9 @@ files:
       offset: 685
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: '  default: res= (x1,x2)->D'
-  - offset: 572
+  - offset: 586
     length: 33
     placeholder_text: |-
       /* TODO */
@@ -221,9 +221,9 @@ files:
       offset: 896
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: '  DoMath calc = '
-  - offset: 621
+  - offset: 635
     length: 0
     placeholder_text: |-
       /* TODO */
@@ -233,7 +233,7 @@ files:
       offset: 981
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: |2-
 
               return calc
@@ -267,8 +267,8 @@ files:
         }
     }
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Compilation Failed
-  time: Wed, 28 Jul 2021 04:22:55 UTC
+  message: Congratulations!
+  time: Wed, 28 Jul 2021 04:33:17 UTC
 record: -1

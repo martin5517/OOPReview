@@ -23,7 +23,7 @@ public static class Triplet<T,U,V>{
         t.add(new Triplet<>(3.4,5.2,"+"));
         t.add(new Triplet<>(2.3,1.23,"-"));
 /* TODO */
-        t.add(new Triplet<>(12.4,0.0,"/\""));
+        t.add(new Triplet<>(12.4,0.0,"/"));
         t.add(new Triplet<>(56.0,28.0,"/"));
         t.add(new Triplet<>(4.5,5.4,"*"));
 
